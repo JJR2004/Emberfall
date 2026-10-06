@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: emberfall
+    runtime: docker
+    plan: free
+    healthCheckPath: /health
